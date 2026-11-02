@@ -1,0 +1,6 @@
+{
+  "name": "Primeira Assinatura em 24h — Método P24",
+  "description": "Faça sua primeira venda de assinatura em até 24 horas começando do absoluto zero com o Método P24 por Caio Martins.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
