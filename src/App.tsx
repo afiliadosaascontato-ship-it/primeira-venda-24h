@@ -32,8 +32,6 @@ const OFFER_CARD_IMG =
   'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=1336,fit=crop/GUu7OKqV6JR8z9he/semcompra-TLpHPPL8dcJEBIGr.png';
 const CAIO_PHOTO_IMG =
   'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=864,fit=crop/GUu7OKqV6JR8z9he/caiooo-1SGIyKhhUefVLdR7.png';
-const PKG_LOGO_IMG =
-  'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=67,fit=crop/GUu7OKqV6JR8z9he/pkg-CrxThpSyzBh4a80g.png';
 
 const MODULE_CARDS = [
   {
@@ -601,24 +599,6 @@ export default function App() {
             >
               Termos de Uso
             </button>
-          </div>
-
-          {/* Logo da Agência PKG com Link Oficial para o Instagram */}
-          <div className="pt-3">
-            <a
-              href="https://www.instagram.com/agenciapkg/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram oficial da Agência PKG"
-              className="inline-flex items-center justify-center opacity-80 transition-opacity duration-200 hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#127DFF] rounded-lg p-1"
-            >
-              <ResilientImage
-                src={PKG_LOGO_IMG}
-                alt="Desenvolvido por Agência PKG"
-                fallbackLabel="Agência PKG"
-                className="h-6 w-auto object-contain sm:h-7"
-              />
-            </a>
           </div>
         </div>
       </footer>
